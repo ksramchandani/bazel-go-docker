@@ -1,0 +1,4 @@
+load("@bazel_gazelle//:def.bzl", "gazelle")
+
+# gazelle:prefix github.com/ksramchandani/bazel-go-docker
+gazelle(name = "gazelle")
